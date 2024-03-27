@@ -1,11 +1,49 @@
-table, td, th{
-    border: 1px solid red;
-    border-collapse: collapse;
-    padding: 10px;
+@import url('https://fonts.googleapis.com/css2?family=Kanit:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Kanit:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Rakkas&display=swap');
+
+p 
+{
+    text-align: center;
+    color: blueviolet;
+    font-size: 22px;
+    font-weight: bold;
+    font-family: "Kanit", sans-serif;
 }
 
-td{
- font-style: italic;
- color: blue ;
-    
+h2 
+{
+    color: darkgoldenrod;
+    text-transform: capitalize;
+}
+
+h1
+{
+    text-align: center;
+    color: gold;
+    font-weight: bold;
+    font-family: "Rakkas", serif;
+}
+h2:first-of-type
+{
+    text-align: center;
+}
+ol 
+{
+    color: red;
+    font-size: larger;
+
+}
+ul
+{
+    color: firebrick;
+}
+h2:last-of-type
+{
+    text-align: center;
+}
+
+th
+{
+    color: royalblue;
 }
